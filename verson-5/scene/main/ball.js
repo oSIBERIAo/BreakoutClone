@@ -28,7 +28,7 @@ var Ball = function (game) {
             let b = rect
             //此处给系统计算预留时间 10
             if ((o.x > b.x + b.w - 10) || (o.x + o.w -10 < b.x)) {
-                log('侧边碰撞')
+                // log('侧边碰撞')
                 o.speedX *= -1
                 return
             }

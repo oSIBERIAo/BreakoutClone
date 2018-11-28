@@ -57,7 +57,6 @@ class Game extends GameScene {
     replceScene(scene) {
         var g = this
         g.scene = scene
-        log('替换scene')
     }
     update() {
         var g = this
